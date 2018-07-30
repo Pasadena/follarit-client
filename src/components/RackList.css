@@ -1,0 +1,22 @@
+.RackList {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.Rack {
+  padding: 12px;
+  border: 2px solid #e01111;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 2px rgba(224, 17, 17, .2);
+
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.Rack-Header {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 6px;
+}
